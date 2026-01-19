@@ -274,3 +274,10 @@ h2 {
   }
 
   }
+  /* Ensure buttons wrap correctly on mobile */
+  .button-primary,
+  .button-secondary {
+    white-space: normal;
+    line-height: 1.3;
+    word-break: break-word;
+  }
